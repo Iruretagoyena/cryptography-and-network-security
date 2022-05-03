@@ -445,7 +445,7 @@ print(Merkle_Tree.get_proof_for("ThisInfoDoesNotExistInTheTree"))
 
 # ## We create a validation test that receives a proof that an element is in a Merkle Tree, and returns true if proof correct, False otherwise.
 
-# In[13]:
+# In[23]:
 
 
 def _rebuild_root(proof, item, hash_):
@@ -493,8 +493,10 @@ def verify(root, item, proof, hash_):
     """
     
     _proof = proof.copy()
-    check_correctness = str(root) == str(_rebuild_root(_proof, item, hash_))
+    _rebuild_root_result = str(_rebuild_root(_proof, item, hash_))
+    check_correctness = str(root) == _rebuild_root_result
     print("Correct result would be: ", str(root))
+    print("Result obtained: ", str(_rebuild_root_result))
     
     print(color.BOLD, "\n Is the proof correct ?", "-"*70)
     print("-------------------------------", check_correctness, "-------------------------------")
@@ -504,7 +506,7 @@ def verify(root, item, proof, hash_):
 
 # ## Case 1: Item not present in tree, false proof
 
-# In[14]:
+# In[24]:
 
 
 
@@ -532,7 +534,7 @@ verify(MerkleRoot, element, alleged_proof, hash_func)
 
 # ## Caso 2: Item does exist in tree, proof correct, root correctly reconstructed
 
-# In[15]:
+# In[25]:
 
 
 raw_data = ["First_Node", 
