@@ -18,8 +18,7 @@ Referencias
 
 ---
 
-
-[Pregunta 2 - PDF](/Tarea%201/Pregunta%201/pregunta2.ipynb)
+[Pregunta 2 - PDF](/Tarea%201/Pregunta%202/pregunta2.ipynb)
 
 Juego Adversario
 
@@ -48,7 +47,7 @@ Referencias
 
 ---
 
-[Pregunta 4 - PDF](/Tarea%201/Pregunta%201/pregunta4.ipynb)
+[Pregunta 4 - PDF](/Tarea%201/Pregunta%204/pregunta4.ipynb)
 
 Juego Adversario
 
