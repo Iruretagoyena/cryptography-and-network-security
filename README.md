@@ -18,7 +18,7 @@ Referencias
 
 ---
 
-[Pregunta 2 - PDF](/Tarea%201/Pregunta%202/pregunta2.ipynb)
+[Pregunta 2 - PDF](https://github.com/C0sch0/cryptography-and-network-security/blob/4f62634183068896adb69baceae995ae1d6784c7/Tarea%201/Pregunta%202/pregunta2.pdf)
 
 Juego Adversario
 
@@ -47,7 +47,7 @@ Referencias
 
 ---
 
-[Pregunta 4 - PDF](/Tarea%201/Pregunta%204/pregunta4.ipynb)
+[Pregunta 4 - PDF](https://github.com/C0sch0/cryptography-and-network-security/blob/81cb9220be5a6e9589f2b8e835f7fb871e6722fa/Tarea%201/Pregunta%204/pregunta4.pdf)
 
 Juego Adversario
 
